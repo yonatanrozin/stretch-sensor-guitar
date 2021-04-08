@@ -24,9 +24,8 @@ For developers:
 - The [Arduino IDE](https://www.arduino.cc/en/software)
 
 For users and developers:
-- The [p5.js Web Editor](https://editor.p5js.org/)
+- The [p5.js Web Editor](https://editor.p5js.org/) with the [Space-Mapper Car p5.js sketch](https://editor.p5js.org/yr2053/sketches/QrwdervH3) loaded
 - The [p5.SerialControl app](https://github.com/p5-serial/p5.serialcontrol/releases): this allows the p5.js Web Editor to receive and send serial data
-- The [Space-Mapper Car p5.js sketch](https://editor.p5js.org/yr2053/full/aXnxBpDo4)
 
 
 ## Installation Instructions
@@ -38,10 +37,9 @@ For users and developers:
 
 - Connect Arduino to PC using USB cable
 - Open p5.serialcontrol app, make sure Arduino USB port is visible in the Available Ports list
-- Upload [Arduino Code](https://github.com/yonatanrozin/Space-Mapper-Car/blob/main/Arduino/Space_Mapper_Car_Full.ino) to Arduino Board, making sure the USB port is selected in Tools/Port
-- Open and run [p5.js sketch](https://editor.p5js.org/yr2053/full/aXnxBpDo4)
+- Upload [Arduino Code](https://github.com/yonatanrozin/stretch-sensor-guitar/blob/main/Stretch_Sensor_Guitar/Stretch_Sensor_Guitar.ino) to Arduino Board, making sure the USB port is selected in Tools/Port
+- Open and run [p5.js sketch](https://editor.p5js.org/yr2053/sketches/QrwdervH3)
 - Restart p5.serialcontrol app when necessary
-- An in-depth code breakdown can be found on [my blog](https://wp.nyu.edu/yonatanrozin/space-mapper-car/).
 
 ## Credits
 
