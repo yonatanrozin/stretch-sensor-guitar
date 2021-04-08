@@ -1,4 +1,4 @@
-# stretch-sensor-guitar
+# Stretch Sensor Guitar
 A guitar prototype that uses stretch sensors as strings and communicates with a sequencer in p5.js. A video demonstration can be found [here](https://youtu.be/n1DFHVW942c)!
 
 ## Introduction
