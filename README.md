@@ -1,7 +1,5 @@
 # Stretch Sensor Guitar
-A guitar prototype that uses stretch sensors as strings and communicates with a sequencer in p5.js. 
-A video demonstration can be found [here](https://youtu.be/n1DFHVW942c). 
-Additional documentation and demonstration videos can be found [here](https://wp.nyu.edu/yonatanrozin/pcomp-project-2/).
+A guitar prototype that uses stretch sensors as strings and communicates with a sequencer in p5.js. A video demonstration can be found [here](https://youtu.be/n1DFHVW942c), and additional documentation and demonstration videos can be found on my [blog](https://wp.nyu.edu/yonatanrozin/pcomp-project-2/).
 
 ## Introduction
 Stretch Sensor Guitar was created as the second assignment for my Physical Computing course (guidelines can be found [here](https://itp.nyu.edu/physcomp/itp/syllabus/assignments/#Project_2). The project uses a wired Arduino-to-PC connection through asynchronous serial communication, which very much resembles and performs many of the same functions as connecting an electric guitar to an amp. The PC runs a p5.js sketch, which synthesizes the guitar notes in real time and provides a sequencer to record pitch/volume information and play it back.
