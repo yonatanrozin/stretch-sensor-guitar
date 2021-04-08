@@ -33,7 +33,7 @@ For users and developers:
 
 ### Schematic Diagram
 
-IMAGE
+![A schematic diagram of an Arduino Nano 33 IoT wired to 3 potentiometers, 3 variable resistors and a pushbutton](https://github.com/yonatanrozin/stretch-sensor-guitar/blob/main/Images/Guitar%20Schematic.jpeg)
 
 
 - Connect Arduino to PC using USB cable
