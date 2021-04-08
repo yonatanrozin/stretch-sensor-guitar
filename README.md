@@ -9,3 +9,40 @@ I had been very eager to mess around with some [stretch sensors](https://www.ada
 This project attempts to replicate the function of a real guitar as closely as possible. It will produce a sound whenever one of the strings is plucked or strummed at a volume proportional to the degree of stretch on the cord. In other words: the stronger the pluck, the louder the sound, much like on a real guitar. The pitch of each of its 3 strings must be tuned with a corresponding potentiometer, making playing melodies in real time almost impossible. To make up for this, the p5.js sketch provides a sequencer, where the notes can be recorded at a certain position in time and then played back to form a melody.
 
 To sense the "plucking" of one of the stretch sensor strings, the Arduino is constantly tracking their resistance over time. If the arduino detects a sufficient decrease in resistance over a sufficiently short duration, it sends 3 numbers to p5.js, which correspond to which string was plucked, the degree to which it was plucked and the value on that string's corresponding potentiometer. If the user has clicked on one of the spaces on the sequencer, the pitch and volume of a played note are stored in that space. Once the user has recorded their desired notes, they can hit the spacebar to hear the notes played in sequence.
+
+## Materials
+
+### Hardware
+
+- An [Arduino Nano 33 IoT](https://store.arduino.cc/usa/nano-33-iot) 
+- A length of [rubber cord stretch sensors](https://www.adafruit.com/product/519)
+- 3 potentiometers
+
+### Software
+
+For developers:
+- The [Arduino IDE](https://www.arduino.cc/en/software)
+
+For users and developers:
+- The [p5.js Web Editor](https://editor.p5js.org/)
+- The [p5.SerialControl app](https://github.com/p5-serial/p5.serialcontrol/releases): this allows the p5.js Web Editor to receive and send serial data
+- The [Space-Mapper Car p5.js sketch](https://editor.p5js.org/yr2053/full/aXnxBpDo4)
+
+
+## Installation Instructions
+
+### Schematic Diagram
+
+IMAGE
+
+
+- Connect Arduino to PC using USB cable
+- Open p5.serialcontrol app, make sure Arduino USB port is visible in the Available Ports list
+- Upload [Arduino Code](https://github.com/yonatanrozin/Space-Mapper-Car/blob/main/Arduino/Space_Mapper_Car_Full.ino) to Arduino Board, making sure the USB port is selected in Tools/Port
+- Open and run [p5.js sketch](https://editor.p5js.org/yr2053/full/aXnxBpDo4)
+- Restart p5.serialcontrol app when necessary
+- An in-depth code breakdown can be found on [my blog](https://wp.nyu.edu/yonatanrozin/space-mapper-car/).
+
+## Credits
+
+- A huge thanks to [David Rios](https://riosriosrios.com/) for bestowing upon me and my other classmates the knowledge and inspiration necessary to make this project happen!
