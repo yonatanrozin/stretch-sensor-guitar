@@ -1,5 +1,5 @@
 # Stretch Sensor Guitar
-A guitar prototype that uses stretch sensors as strings and communicates with a sequencer in p5.js. A video demonstration can be found [here](https://youtu.be/n1DFHVW942c), and additional documentation and demonstration videos can be found on my [blog](https://wp.nyu.edu/yonatanrozin/pcomp-project-2/).
+A guitar prototype that uses stretch sensors as strings and communicates with a P5.js sequencer. A video demonstration can be found [here](https://youtu.be/n1DFHVW942c).
 
 ## Introduction
 Stretch Sensor Guitar was created as the second assignment for my Physical Computing course (guidelines can be found [here](https://itp.nyu.edu/physcomp/itp/syllabus/assignments/#Project_2)). The project uses a wired Arduino-to-PC connection through asynchronous serial communication, which very much resembles and performs many of the same functions as connecting an electric guitar to an amp. The PC runs a p5.js sketch, which synthesizes the guitar notes in real time and provides a sequencer to record pitch/volume information and play it back.
@@ -34,13 +34,8 @@ For users and developers:
 
 ![A schematic diagram of an Arduino Nano 33 IoT wired to 3 potentiometers, 3 variable resistors and a pushbutton](https://github.com/yonatanrozin/stretch-sensor-guitar/blob/main/Images/Guitar%20Schematic.jpeg)
 
-
 - Connect Arduino to PC using USB cable
 - Open p5.serialcontrol app, make sure Arduino USB port is visible in the Available Ports list
 - Upload [Arduino Code](https://github.com/yonatanrozin/stretch-sensor-guitar/blob/main/Stretch_Sensor_Guitar/Stretch_Sensor_Guitar.ino) to Arduino Board, making sure the USB port is selected in Tools/Port
 - Open and run [p5.js sketch](https://editor.p5js.org/yr2053/sketches/QrwdervH3)
 - Restart p5.serialcontrol app when necessary
-
-## Credits
-
-- A huge thanks to [David Rios](https://riosriosrios.com/) for bestowing upon me and my other classmates the knowledge and inspiration necessary to make this project happen!
